@@ -1,10 +1,9 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 
 @Module({
   imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  //url을 가져오고 함수를 실행하는 역할. express 의 라우터.
+  controllers: [],
+  providers: [],
 })
 export class AppModule {}
